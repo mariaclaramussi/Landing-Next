@@ -1,0 +1,393 @@
+@media screen and (max-width: 1120px) {
+	#hero .hero-girl-image {
+		width: 100%;
+	}
+
+	#conection h2 br {
+		display: none;
+	}
+
+	#about {
+		padding-top: 80px;
+		padding-bottom: 140px;
+		background-position: bottom right;
+	}
+
+	#about img {
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.green-banner {
+		padding: 30px 55px;
+	}
+	.green-banner .col-md-5 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.green-banner .woman-image {
+		position: relative;
+		top: initial;
+		left: initial;
+		width: 100%;
+	}
+
+	.green-banner h2 br {
+		display: none;
+	}
+
+	#tips {
+		background-image: none;
+	}
+
+	#focus img {
+		width: 100%;
+	}
+
+	footer .align-social-media {
+		margin-top: 90px;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	footer .align-social-media p.follow {
+		margin: 0 0 16px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	a.dark-button,
+	a.green-button {
+		font-size: 13px;
+		padding: 24px 32px;
+	}
+
+	h2 {
+		font-size: 32px;
+		line-height: 120%;
+		margin-bottom: 24px;
+	}
+
+	#hero header {
+		padding: 32px 24px;
+	}
+
+	#hero .col-lg-6:last-child {
+		display: none;
+	}
+
+	.hero-call img {
+		margin-top: 0;
+	}
+
+	#conection {
+		padding: 70px 0 95px;
+	}
+
+	.container-connection-images .heart-image {
+		display: none;
+	}
+
+	.circle {
+		width: 100%;
+		height: auto;
+		margin-top: 40px;
+		position: relative;
+	}
+
+	.arc {
+		display: none;
+	}
+
+	.green-banner h2 {
+		font-size: 24px;
+		margin-top: 48px;
+	}
+
+	#about .col-md-6:first-child {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#journey {
+		padding: 90px 8px 100px;
+	}
+
+	#journey h2 {
+		margin-bottom: 24px;
+	}
+
+	#journey button {
+		margin-top: 70px;
+	}
+
+	#journey .col-md-6 {
+		margin-bottom: 24px;
+	}
+
+	#journey .start-journey-text {
+		margin-bottom: 40px;
+	}
+
+	#tips h2 {
+		font-size: 24px;
+	}
+
+	#tips .collapse-content .card {
+		margin-bottom: 60px;
+		text-align: left;
+	}
+
+	#tips .collapse-content .card p {
+		max-width: initial;
+		text-align: left;
+		margin: initial;
+	}
+
+	#tips .btn-collapse {
+		font-size: 20px;
+	}
+
+	#weeknext img {
+		width: 100%;
+	}
+
+	.day-card {
+		margin-bottom: 32px;
+		height: 350px;
+		text-align: left;
+		max-width: initial;
+	}
+
+	.day-card h3 {
+		font-size: 20px;
+		margin-bottom: 16px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	body .container {
+		padding: 0 24px;
+	}
+
+	#hero .hero-girl-image {
+		display: none;
+	}
+
+	.dark-square p {
+		font-size: 17px;
+	}
+
+	.hero-call h1 {
+		font-size: 40px;
+	}
+
+	#hero .hero-left,
+	#hero .hero-right {
+		width: 45px;
+	}
+
+	#conection {
+		text-align: center;
+		overflow: hidden;
+	}
+
+	.container-connection-images .heart-image {
+		max-width: 70px;
+		display: block;
+	}
+
+	.circle {
+		width: 100%;
+		height: auto;
+		margin-top: 40px;
+		position: relative;
+	}
+
+	.arc {
+		display: block;
+		animation: none;
+		transform: rotate(190deg) skewX(30deg) translate(-10px);
+		top: -0.5rem;
+		left: -0.5rem;
+	}
+
+	.arc:before {
+		border-width: 0.5rem;
+	}
+
+	.green-banner {
+		text-align: center;
+		padding: 0 24px;
+		background-position: bottom;
+		background-size: contain;
+	}
+
+	.green-banner .row {
+		flex-direction: column-reverse;
+	}
+
+	.green-banner .woman-image {
+		margin: 28px 0;
+		max-width: 190px;
+	}
+
+	.green-banner button {
+		margin: auto;
+	}
+
+	#about {
+		text-align: center;
+		background-size: 150%;
+	}
+
+	#about h2 {
+		margin: 0 auto 24px;
+	}
+
+	#about button {
+		display: none;
+	}
+
+	.journey-container-card {
+		margin-left: 8px;
+		height: initial;
+	}
+
+	#tips {
+		text-align: center;
+		background-image: none;
+	}
+
+	#tips p {
+		max-width: 280px;
+		margin: 0 auto 40px;
+	}
+
+	#weeknext {
+		overflow: hidden;
+		text-align: center;
+	}
+
+	#weeknext img {
+		display: none;
+	}
+
+	#weeknext img.green-tag {
+		display: block;
+		width: initial;
+		margin-bottom: 80px;
+	}
+
+	#weeknext img.words-img.mobile {
+		display: block;
+	}
+
+	#weeknext p {
+		margin-bottom: 40px;
+	}
+
+	.day-card {
+		margin-bottom: 32px;
+		height: 400px;
+		text-align: left;
+		max-width: initial;
+	}
+
+	#focus {
+		text-align: center;
+	}
+
+	#focus .row {
+		flex-direction: column-reverse;
+	}
+
+	#focus h2 {
+		max-width: 300px;
+		margin: 0 auto 24px;
+	}
+
+	#focus button {
+		margin: 0 auto 50px;
+	}
+
+	.dark-banner {
+		height: 700px;
+		background-image: url("../images/background-mobile.png");
+		text-align: center;
+		padding: initial;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 0 32px;
+		margin-bottom: 80px;
+	}
+
+	#subscribe {
+		padding: 150px 16px 210px;
+		text-align: center;
+	}
+
+	#subscribe .title-container {
+		padding: 24px 9px;
+		width: 100%;
+	}
+
+	#subscribe h2 {
+		font-size: 40px;
+	}
+
+	#subscribe span.square {
+		width: 8px;
+		height: 8px;
+	}
+
+	#subscribe span.square.top-left {
+		top: -4px;
+		left: -4px;
+	}
+
+	#subscribe span.square.top-right {
+		top: -4px;
+		right: -4px;
+	}
+
+	#subscribe span.square.bottom-left {
+		bottom: -4px;
+		left: -4px;
+	}
+
+	#subscribe span.square.bottom-right {
+		bottom: -4px;
+		right: -4px;
+	}
+
+	footer {
+		text-align: center;
+		padding-top: 0;
+	}
+
+	footer .col-md-4 {
+		justify-content: center;
+	}
+
+	footer .align-social-media {
+		align-items: center;
+	}
+
+	footer .align-icons-media {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 385px) {
+	a.dark-button,
+	a.green-button {
+		font-size: 11px;
+		padding: 16px 20px;
+	}
+}
